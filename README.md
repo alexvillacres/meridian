@@ -2,13 +2,13 @@
 ### 1.1 Project Setup
 - [x] Set up version control (GitHub repository)
 - [x] Configure linting and formatting (ESLint, Prettier)
-- [x] Choose a UI component library - ShadCN-Svelte
-1.2 Architecture Planning
+- [ ] Choose a UI component library - ShadCN
+### 1.2 Architecture Planning
 - [ ] Define data models (Users, Clients, Projects, Tasks, Assets)
 - [ ] Choose backend/database approach
 - [ ] Plan API integration for AI component
 	- [ ] Consider OpenAI, Claude, or similar for task analysis
-1.3 User Research & Design
+### 1.3 User Research & Design
 - [ ] Create wireframes for core screens (Figma recommended)
 - [ ] Develop design system (colors, typography, spacing, components)
 - [ ] Design user flows for task creation and management
