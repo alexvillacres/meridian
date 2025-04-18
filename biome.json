@@ -1,0 +1,10 @@
+{
+    "formatter": true,
+    "linter": true,
+    "rules": {
+      "recommended": true,
+      "svelte": true
+    },
+    "files": ["src/**/*.{js,ts,svelte}"]
+  }
+  

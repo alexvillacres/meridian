@@ -1,38 +1,28 @@
-# sv
+# Meridian - AI-driven Task Creator for Design Agencies
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Project Overview
 
-## Creating a project
+Meridian is a Svelte 5 app that helps design agencies create clear, structured task briefs using AI assistance. The MVP focuses on:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Dynamic multi-step task creation forms driven by a flexible schema.
+- Saving task data to Supabase/Postgres.
+- Exporting tasks as Markdown or JSON.
+- Future-proof architecture for dashboards and integrations.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Svelte 5
+- Supabase (Auth, Database, Storage)
+- Drizzle ORM (Postgres)
+- Tailwind CSS
+- Biome.js (Linting & Formatting)
+- pnpm (Package manager)
 
-## Developing
+## Setup
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repo:
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+   ```bash
+   git clone https://github.com/your-username/meridian.git
+   cd meridian
+   pnpm install
